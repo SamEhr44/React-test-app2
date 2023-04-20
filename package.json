@@ -34,6 +34,7 @@
     "random-id": "^1.0.4"
   },
   "scripts": {
+    "start": "node server/server.js",
     "server":"nodemon server/server.js",
     "client":"cd client && npm start",
     "dev": "npm run server & npm run client"
