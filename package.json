@@ -36,7 +36,7 @@
   "scripts": {
     "server":"nodemon server/server.js",
     "client":"cd client && npm start",
-    "dev": "nodemon server/server.js"
+    "dev": "npm run server & npm run client"
   },
   "eslintConfig": {
     "extends": [
