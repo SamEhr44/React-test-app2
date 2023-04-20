@@ -34,7 +34,8 @@
     "random-id": "^1.0.4"
   },
   "scripts": {
-    
+    "server":"nodemon server/server.js",
+    "client":"cd client && npm start",
     "dev": "nodemon server/server.js"
   },
   "eslintConfig": {

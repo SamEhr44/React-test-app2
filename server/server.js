@@ -14,5 +14,6 @@ app.get('/', (req,res) => {
    res.send(`<h1>API Running on the port ${port}</h1>`);
  });
 app.listen(port, () => {
-   console.log('Server is up!');
+   console.log('Server is up! ${port}');
+   console.log(port);
 });
